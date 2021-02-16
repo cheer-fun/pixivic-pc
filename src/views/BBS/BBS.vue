@@ -25,6 +25,11 @@ export default {
   .iframe{
     height: 100%;
     width: 100%;
+
+    // fix: firefox replaced elements overflow
+    iframe {
+      display: block;
+    }
   }
 }
 </style>

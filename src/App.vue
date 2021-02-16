@@ -117,7 +117,7 @@ export default {
 <style lang="less">
 #app {
   .page-container {
-    /deep/ .el-main {
+    .el-main {
       padding: 0px;
     }
   }
